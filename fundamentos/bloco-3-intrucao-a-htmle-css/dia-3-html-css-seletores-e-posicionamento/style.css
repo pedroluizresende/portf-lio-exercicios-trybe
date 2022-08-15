@@ -1,38 +1,56 @@
-.super-mario {
-  width: 120px;
-  position: absolute;
-    z-index: 1;
-  left: 400px;
-  
+ol {
+  background-color: yellow;
 }
 
-.goomba {
-  width: 100px;
-  position: absolute;
-  z-index: 2;
-  top: 380px;
-  left: 400px;
+ol .par {
+  color: green;
 }
 
-.baloon {
-  position: absolute;
-  z-index: 3;
-  right: 300px;
+ol .impar {
+  text-transform: uppercase;
 }
 
-.speech {
-  font-size: 25px;
-  position: absolute;
-  z-index: 4;
-  top: 130px;
-  right: 350px;
+h1 {
+  color: red;
 }
 
-.bowser {
-  width: 200px;
-  position: absolute;
-  z-index: 5;
-  top: 200px;
-  right: 100px;
+h3 {
+  color: red;
 }
 
+h1 em {
+  size: 40px;
+  border: 1px solid black;
+}
+
+li {
+  size: 20px;
+}
+
+li em {
+  font-weight: bold;
+}
+
+.tres {
+  color: blue;
+}
+
+.java {
+  background-color: pink;
+}
+
+.stack :hover {
+  color: orange;
+}
+.w3 :hover {
+  color: green
+}
+.mozilla :hover {
+  color: black
+}
+.devdocs :hover {
+  color: yellow;
+}
+.betrybe :hover {
+  color: green;
+}
