@@ -18,7 +18,7 @@ body {
 }
 
 nav {
-    background-color: rgba(0, 0, 255, 0.699);
+    background-color: rgb(1, 139, 93);
     height: 25px;
     margin: auto;
     margin-top: 20px;
@@ -33,11 +33,14 @@ nav li {
 }
 
 nav a {
-    color: aliceblue;
+    color: black;
     display: inline;
     text-size-adjust: ;
     margin: 120px;
     overflow: auto  ;
+}
+nav a :hover {
+    color: aquamarine;
 }
 
 article {
@@ -151,11 +154,11 @@ aside {
     line-height: 40px;
 }
 aside a {
-    color: rgb(1, 139, 93);
+    color: rgb(0, 0, 0);
     
 }
-.extra-video a :hover {
-    color: rgb(0, 0, 0);
+table a :hover {
+    color: aquamarine;
 }
 .extra-video p {
     line-height: 20px;
