@@ -1,7 +1,20 @@
-let weekDay = 'domingo';
+let statusAprovacao = 'sei la';
 
-if (weekDay === 'segunda-feira' || weekDay === 'terçaa-feira' || weekDay === 'quarta-feira' || weekDay === 'quinta-feira' || weekDay === 'sexta-feira') {
-    console.log( "Oba, mais um dia de aprendizado na Trybe >:D")
-} else {
-    console.log("FINALMENTE, descanso merecido UwU")
+switch (statusAprovacao) {
+    case 'aprovada':
+        console.log('Aprovada bebe!')
+        
+        break;
+    case 'reprovada':
+        console.log('Reprovada que pena!')
+            
+        break;
+    case 'lista':
+        console.log('Você está na lista de espera, tenha fé haha!')
+            
+        break;
+
+    default:
+        console.log('não se aplica')
+        break;
 }
