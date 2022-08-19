@@ -1,0 +1,173 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+    background-color: rgb(15, 187, 240);
+}
+.title  {
+    background-image: url(mantis.jpg);
+    width: 900px;
+    height: 450px;
+    text-align: center;
+    color: aqua;
+    margin: 10px 10px 10px 500px;
+    background-size: 50;
+}
+
+nav {
+    background-color: rgb(1, 139, 93);
+    height: 25px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+    text-align: center;
+    
+}
+nav li {
+    display: inline;
+
+}
+
+nav a {
+    color: black;
+    display: inline;
+    text-size-adjust: ;
+    margin: 120px;
+    overflow: auto  ;
+}
+nav a :hover {
+    color: aquamarine;
+}
+
+article {
+    background-color: rgb(1, 139, 93);
+    margin: 20px;
+    display: inline-block;
+    width: 75%;
+}
+
+section {
+    background-color: aquamarine;
+    margin: 20px;
+    display: in;
+
+}
+h2 {
+    text-align: center;
+    color: rgb(0, 11, 32);
+}
+
+h4 {
+    text-align: right;
+    margin: 10px;
+}
+
+.general-info {
+    width: 100%px;
+    height: 450px;
+    }
+.general-info img {
+    float: right;
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+}
+
+.general-info-text {
+    float: right;
+     color: rgb(0, 0, 0);
+     display: inline-block;
+     width: 49%;
+     margin: 1px;   
+     margin-top: 70px;
+     margin-bottom: 10px;
+ }
+
+
+.punch {
+    width: 100%px;
+    height: 450px;
+    }
+
+.punch img {
+    float: left;
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+
+}
+
+.punch-text {
+   float: right;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    width: 49%;
+    margin: 1px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.name {
+    width: 97,7%;
+    height: 450px;
+    }
+
+.name img {
+    float: right;
+    border: 20px solid  white;
+    width: calc(50% - 40px);
+    height: calc(100% - 40px);
+ }
+
+.name-text {
+   float: leftt;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    width: 49%;
+    margin: 1px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+aside {
+    background-color: rgb(1, 139, 93);
+    display: inline-block;
+    width: 19%;
+    margin: 20px 20px 20px 0px;
+    height: 100%;
+    position: relative;
+    bottom: 990px;
+}
+
+.extra-video {
+    background-color: aquamarine;
+    padding: 20px;
+    
+}
+.extra-video h3 {
+    text-decoration: underline;
+    text-align: center;
+    line-height: 40px;
+}
+aside a {
+    color: rgb(0, 0, 0);
+    
+}
+table a :hover {
+    color: aquamarine;
+}
+.extra-video p {
+    line-height: 20px;
+}
+
+table {
+    background-color: aquamarine;
+    width: 100%;
+}
+table h4 {
+    text-align: left;
+}
