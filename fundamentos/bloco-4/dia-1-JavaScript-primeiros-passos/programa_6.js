@@ -1,7 +1,7 @@
 // Programa 6
-let pecaXadrez= 'Rei';
+let pecaXadrez= 'Bispo';
 
-switch (pecaXadrez) {
+switch (pecaXadrez.toLowerCase()) {
     case 'Peão':
         console.log('Anda 1 para frente e como na diagonal')
         break;
@@ -11,13 +11,13 @@ switch (pecaXadrez) {
     case 'Cavalo':
         console.log('Movimenta-se em L 3 para frente e 1 para o lado')
         break
-    case 'Bispo':
+    case 'bispo':
         console.log('Movimenta-se nas diagonais, número de casas ilimitado')
         break
     case 'Rainha':
         console.log('Movimenta-se em todas as direções, número de casas ilimitado')
         break
-    case 'Rei':
+    case 'rei':
         console.log('Movimenta-se em todas direções, apenas 1 casa por rodada')
 
 }
