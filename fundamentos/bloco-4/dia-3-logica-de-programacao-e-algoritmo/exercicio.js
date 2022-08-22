@@ -32,15 +32,15 @@
 
 // let numerosPrimos = [];
 
-// for (let index = 2; index <= 50; index +=1){
-//     let divisor = 0;
-//     for(let index2 = 2; index2 < index; index2 +=1){
-//         if (index % index2 === 0) {
-//             divisor += 1;
-//         }
-//     }
-//     if (divisor % index == 0){
-//     numerosPrimos.push(index)
-//     }
-// } console.log(numerosPrimos[numerosPrimos.length-1]);
+for (let index = 2; index <= 50; index +=1){
+    let divisor = 0;
+    for(let index2 = 2; index2 < index; index2 +=1){
+        if (index % index2 === 0) {
+            divisor += 1;
+        }
+    }
+    if (divisor % index == 0){
+    numerosPrimos.push(index)
+    }
+} console.log(numerosPrimos[numerosPrimos.length-1]);
     
