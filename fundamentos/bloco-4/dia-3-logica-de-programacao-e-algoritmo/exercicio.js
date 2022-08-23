@@ -99,17 +99,17 @@ let direita = '';
 let esquerda = '';
 let asteristico = '';
 
-for (let linha = 1; linha <= n - 2; linha += 1) {
-    for (let ie = 1 ; ie <=n-2; ie += 1) {
-        if (linha <= ie)
-        esquerda += ' ';
-    }
-    for (let coluna = 1; coluna <= n-2; coluna += 1) {
-        if (linha === coluna) {
-            asteristico += '*';
-        }
-    }
-    console.log(esquerda, asteristico, direita)
-    asteristico += '*'
-    esquerda = '';
-}
+// for (let linha = 1; linha <= n - 2; linha += 1) {
+//     for (let ie = 1; ie <= n - 2; ie += 1) {
+//         if (linha <= ie)
+//             esquerda += ' ';
+//     }
+//     for (let coluna = 1; coluna <= n - 2; coluna += 1) {
+//         if (linha === coluna) {
+//             asteristico += '*';
+//         }
+//     }
+//     console.log(esquerda, asteristico, direita)
+//     asteristico += '*'
+//     esquerda = '';
+// }
