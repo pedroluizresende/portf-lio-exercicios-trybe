@@ -20,4 +20,19 @@ addNewTag('main','main-content',container);
 let main = addNewTag('main','main-content',container);
 
 addNewTag('section','center-content',main);
+let sectionCenter =  addNewTag('section','center-content',main);
+
+addNewTag('p','paragraph',sectionCenter,);
+
+addText(addNewTag('p','paragraph',sectionCenter,), "Esse texto é um texto teste, para ser adicionado na tag 'p'!")
+
+addNewTag('section','left-content',main);
+
+addNewTag('section','rigth-content',main);
+
+addNewTag('img', 'small', container).src = 'https://picsum.photos/200';
+
+
+
+
 
