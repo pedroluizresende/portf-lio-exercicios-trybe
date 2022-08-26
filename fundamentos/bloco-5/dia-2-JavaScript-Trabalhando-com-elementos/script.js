@@ -14,3 +14,10 @@ function addText (tag, text) {
 }
 
 addText(addNewTag('h1', 'tittle', container), 'Exercício 5.2 - JavaScript DOM')
+
+addNewTag('main','main-content',container);
+
+let main = addNewTag('main','main-content',container);
+
+addNewTag('section','center-content',main);
+
