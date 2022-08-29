@@ -34,8 +34,19 @@ function creaTeDaysofMounth() {
 
 
 }
-
 creaTeDaysofMounth();
+
+let buttonsContainer = document.querySelector('.buttons-container')
+function createButton(parenter, text){
+    let button = document.createElement('button');
+    button.innerText = text;
+    buttonsContainer.appendChild(button)
+ console.log(button)   
+ }
+
+
+
+ createButton(buttonsContainer, 'Feriados')
   // function mounthDays() {
   //   for(let index in decemberDaysList) {
   //     let elementList = ol.createElement('li');
