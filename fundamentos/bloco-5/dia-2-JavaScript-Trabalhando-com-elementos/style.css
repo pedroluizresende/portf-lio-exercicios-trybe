@@ -1,9 +1,8 @@
 .rigth-content {
-    background-color: brown;
+  margin-right: auto;
 }
 
-.center-content {
-    background-color: green;
-
+.main-content {
+    background-color: lightgreen;
 }
 
