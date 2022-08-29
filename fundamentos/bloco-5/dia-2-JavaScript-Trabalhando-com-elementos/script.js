@@ -7,30 +7,46 @@ function addNewTag(tag, classe, parent) {
     return newTagAdd;
 }
 
-addNewTag('h1', 'tittle', container)
-
 function addText (tag, text) {
     tag.innerHTML = text;
 }
 
 addText(addNewTag('h1', 'tittle', container), 'Exercício 5.2 - JavaScript DOM')
 
-addNewTag('main','main-content',container);
-
 let main = addNewTag('main','main-content',container);
 
-addNewTag('section','center-content',main);
 let sectionCenter =  addNewTag('section','center-content',main);
 
 addNewTag('p','paragraph',sectionCenter,);
 
 addText(addNewTag('p','paragraph',sectionCenter,), "Esse texto é um texto teste, para ser adicionado na tag 'p'!")
 
-addNewTag('section','left-content',main);
-
-addNewTag('section','rigth-content',main);
+let leftContent = addNewTag('section','left-content',main);
 
 addNewTag('img', 'small', container).src = 'https://picsum.photos/200';
+
+let rigthContent = addNewTag('section','rigth-content',main);
+
+let ordenadList = addNewTag('ol', 'ordaned-list', rigthContent);
+
+let numeros = ['um;','dois;','três;','quatro;','cinco;','seis;','sete;','oito;','nove;','dez;'];
+
+for(let index = 0; index < numeros.length; index +=1) {
+    let itemList = addNewTag('li', 'item-list', ordenadList)
+    addText(itemList, numeros[index ])
+}
+
+for(let index = 1; index <=3; index +=1){
+addNewTag('h3', 'description',main);
+}
+
+main.removeChild(leftContent)
+
+ordenadList.lastElementChild.remove();
+ordenadList.lastElementChild.remove();
+
+
+
 
 
 
