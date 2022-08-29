@@ -38,11 +38,12 @@ creaTeDaysofMounth();
 
 let buttonsContainer = document.querySelector('.buttons-container')
 let button = document.createElement('button');
-function createButton(parenter, text) {
 
+function createButton(parent, text) {
   button.innerText = text;
-  buttonsContainer.appendChild(button)
+  parent.appendChild(button)
 }
+
 createButton(buttonsContainer, 'Feriados')
 
 button.addEventListener('click', function (event) {
@@ -56,7 +57,13 @@ button.addEventListener('click', function (event) {
   }
 }
 )
+let button2 = document.createElement('button');
 
+function createButton2(parent, text) {
+  button2.innerText = text;
+  parent.appendChild(button2);
+}
+createButton2(buttonsContainer, 'Sexta-Feira');
 
 
   // function mounthDays() {
