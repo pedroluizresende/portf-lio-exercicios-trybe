@@ -125,7 +125,7 @@ function newTaskDiv(color) {
   taskContainer.appendChild(newTask)
 
 }
-newTaskDiv('yellow')
+newTaskDiv('red')
 
 function selectDiv() {
   let selectedTask = document.getElementsByClassName('task selected');
@@ -139,6 +139,24 @@ function selectDiv() {
   })
 }
 selectDiv()
+
+function setDayColor() {
+  let selectedTask = document.getElementsByClassName('task selected');
+  let days = document.querySelector('#days');
+  let taskDiv = document.querySelector('.task');
+  let taskColor = taskDiv.style.backgroundColor;
+  
+  days.addEventListener('click', function(event){
+    let eventTargetColor = event.target.style.color;
+    if (selectedTask.length > 0 && eventTargetColor !== taskColor) {
+      let color = selectedTask[0].style.backgroundColor; // Pega a cor de fundo do primeiro elemento salvo na variável "selectedTask" e salva na variável "color"
+      event.target.style.color = color; // atribui a cor salva na variável "color" ao evento alvo
+    } else if (eventTargetColor === taskColor) {
+      event.target.style.color = 'rgb(119,119,119)';  // Altera a cor de fundo do evento alvo para "rgb(119, 119, 119)"
+    }
+  });
+}
+setDayColor()
   // function mounthDays() {
   //   for(let index in decemberDaysList) {
   //     let elementList = ol.createElement('li');
