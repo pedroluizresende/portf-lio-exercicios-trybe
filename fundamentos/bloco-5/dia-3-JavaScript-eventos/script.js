@@ -93,8 +93,6 @@ function dayMouseOver() {
   days[index].addEventListener('mouseover', function (event) {
     event.target.style.fontSize = '30px';
     event.target.style.fontWeight = '600';}
-
- 
   )
 }
 }
@@ -109,15 +107,38 @@ function dayMouseOut() {
   )
 }
 }
-
-
-
-
-
 dayMouseOut();
 
+function newTaskSpan(task) {
+  let newTask = document.createElement('span');
+  newTask.innerHTML = task;
+  document.querySelector('.my-tasks').appendChild(newTask);
+}
 
+newTaskSpan('Cozinhar');
 
+function newTaskDiv(color) {
+  let taskContainer = document.querySelector('.my-tasks');
+  let newTask = document.createElement('div');
+  newTask.className = 'task'
+  newTask.style.backgroundColor = color;
+  taskContainer.appendChild(newTask)
+
+}
+newTaskDiv('yellow')
+
+function selectDiv() {
+  let selectedTask = document.getElementsByClassName('task selected');
+  let myTask = document.querySelector('.task');
+  myTask.addEventListener('click', function(event) {
+    if (selectedTask.length === 0) {
+      event.target.className = 'task selected'
+    } else {
+      event.target.className = 'task'
+    }
+  })
+}
+selectDiv()
   // function mounthDays() {
   //   for(let index in decemberDaysList) {
   //     let elementList = ol.createElement('li');
