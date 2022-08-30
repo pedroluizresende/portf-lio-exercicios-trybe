@@ -83,7 +83,38 @@ function displayFridays(fridaysArray) {
     }
   });
 }
-displayFridays([4, 11, 18, 25])
+displayFridays([4, 11, 18, 25]);
+
+let days = document.querySelector('.day');
+
+function dayMouseOver() {
+  let days = document.querySelectorAll('.day');
+  for( let index = 0; index < days.length; index +=1){
+  days[index].addEventListener('mouseover', function (event) {
+    event.target.style.fontSize = '30px';
+    event.target.style.fontWeight = '600';}
+
+ 
+  )
+}
+}
+dayMouseOver();
+
+function dayMouseOut() {
+  let days = document.querySelectorAll('.day');
+  for( let index = 0; index < days.length; index +=1){
+  days[index].addEventListener('mouseout', function (event) {
+    event.target.style.fontSize = '20px';
+    event.target.style.fontWeight = '200';}
+  )
+}
+}
+
+
+
+
+
+dayMouseOut();
 
 
 
