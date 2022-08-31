@@ -1,0 +1,171 @@
+* {
+    margin: 0px;
+
+}
+
+body {
+    margin: 0px;
+    background-color: lightgray;
+}
+
+#tittle {
+    text-align: center;
+    margin: 20px;
+}
+
+#lorem-ipsum{
+    margin: 50px;
+}
+
+#lorem-tittle{
+    text-align: center;
+}
+
+#lorem-article{
+    margin: 10px;
+}
+.alteracoes {
+    margin: 30px;
+}
+
+
+.background{
+    margin: auto;
+    width: 100%;
+}
+
+.background div {
+    margin: 20px;
+    width: 8%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    float: left;
+}
+
+.bg-green{
+    background-color: green;
+}
+.bg-blue{
+    background-color: blue;
+}
+.bg-red{
+    background-color: red;
+}
+.bg-white{
+    background-color: white;
+    
+}
+.bg-black{
+    color: white;
+    background-color: black;
+}
+
+.color{
+    display: inline-block;
+    margin: 20px;
+    width: 100%;
+    margin-left: 0px;
+}
+
+.color li {
+    margin: 20px;
+    margin-right: 70px;
+  display: inline-block;
+}
+
+.color-green {
+    color: green;
+}
+
+.color-blue {
+    color: blue;
+}
+
+.color-red {
+    color: red;
+}
+
+.color-white {
+    color: white;
+}
+
+.color-black {
+    color: black;
+}
+
+#font-size{
+    display: inline-block;
+    margin: 10px;
+    width: 100%;
+    margin-left: 0px;
+}
+
+#font-size li {
+    margin: 20px;
+    margin-right: 70px;
+  display: inline-block;
+  }
+
+#font-small{
+    font-size: small;
+}
+
+#font-medium {
+    font-size: 18px;
+}
+
+#font-larger {
+    font-size: 25px;
+}
+
+#line-spacing {
+    display: inline-block;
+    margin: 10px;
+    width: 100%;
+    margin-left: 0px;
+}
+
+#line-spacing li {
+    margin: 20px;
+    margin-right: 70px;
+  display: inline-block;
+}
+
+#spacing-small {
+    line-height: 13px;
+}
+
+#spacing-medium {
+    line-height: 18px;
+}
+
+#spacing-larger {
+    line-height: 23px;
+}
+
+#font-family {
+    display: inline-block;
+    margin: 10px;
+    width: 100%;
+    margin-left: 0px;
+}
+
+#font-family li {
+margin: 20px;
+margin-right: 70px;
+display: inline-block;
+
+}
+
+#libre-baskerville {
+    font-family: 'Libre Baskerville', serif;
+}
+
+#indie-flower {
+    font-family: 'Indie Flower', cursive;
+}
+
+#montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
