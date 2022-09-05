@@ -44,8 +44,6 @@ main.removeChild(leftContent)
 
 ordenadList.lastElementChild.remove();
 ordenadList.lastElementChild.remove();
-rigthContent.style.marginRight = 'auto';
-main.style.backgroundColor = 'lightgreen';
 
 
 
