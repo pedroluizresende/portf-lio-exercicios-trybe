@@ -125,7 +125,7 @@ function newTaskDiv(color) {
   taskContainer.appendChild(newTask)
 
 }
-newTaskDiv('red')
+newTaskDiv('blue')
 
 function selectDiv() {
   let selectedTask = document.getElementsByClassName('task selected');
