@@ -11,102 +11,32 @@ body {
     line-height: 1.5;
     font-weight: 400;
     color: #29313d;
-
-}
-
-  header {
-    padding: 10px;
-    text-align: center;
-    color:rgb(221, 221, 221);;
-    background-color: #036b52;;
-  }
-
-  .trip-form {
-    border: 1px solid #036b52;
-    width: 70%;
-    margin: 20px auto;
-    padding: 30px;
-    color: white;
-    background-color:#036b52 ;
-    border-radius: 5px;
-    text-align: center;
-  }
-
-  .form-row {
-    padding: 0px;
-    margin-bottom: 0px;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .trip-form label {
-    margin: auto;
-  }
-
-  .form-row input[type="text"], .form-row input[type="email"]{
-    border-radius: 5px;
-    color: #29313d;
-    background-color: rgb(221, 221, 221);
-    width: 80%;
-    padding: 7px;
-
-  }
-.line-content{
-  margin: 20px;
-  border: 0 none;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  text-align: center;
-}
-
-fieldset {
-    width: 100%;
-    text-align: center;
-}
-
-fieldset input {
-    margin: 10px 0px 10px 10px;
-}
-
-fieldset label {
     margin: 0px;
-}
 
-.form-row textarea {
-  border-radius: 5px;
-  color: #29313d;
-  background-color: rgb(221, 221, 221);
+}
+header {
+  color: rgb(221, 221, 221);
+  background-color: #036b52;
   width: 100%;
-  padding: 7px;
-  height: 130px;
+  padding-bottom: 1px;
+  margin: 0px auto;
 }
 
-.form-row input[type="date"] {
+form {
+  background-color: #036b52;
+  color: rgb(221, 221, 221);
   border-radius: 5px;
-  color: #29313d;
-  background-color: rgb(221, 221, 221);
-  width: 30%;
-  padding: 7px;
-}
-
-.trip-form button {
-  margin: 10px;
   padding: 10px;
-  width: 40%;
+  box-shadow: 10px 5px 15px rgb(150, 150, 150);
+  
 }
 
-.form-row input[type="checkbox"] {
-  border-radius: 5px;
+.container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#date{
+  width: 30%;
   color: #29313d;
-  background-color: rgb(221, 221, 221);
-  padding: 7px;
-  margin-right: 10px;
-}
-
-#news-checkbox, #img-checkbox {
-  font-size: 12px;
-  text-align: left;
-  color: rgba(221, 221, 221, 0.836);;
 }
