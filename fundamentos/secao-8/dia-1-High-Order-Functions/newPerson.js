@@ -14,4 +14,4 @@ const newEmployees = (callback) => {
   return employees;
 };
 
-console.log(newEmployees(geraEmailComUnderLine))
+console.log(newEmployees(geraEmailComUnderLine));
