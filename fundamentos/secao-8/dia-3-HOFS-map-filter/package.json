@@ -1,0 +1,16 @@
+{
+  "name": "dia-3-hofs-map-filter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "exercise1.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.0.3",
+    "jest": "^29.0.3"
+  }
+}
