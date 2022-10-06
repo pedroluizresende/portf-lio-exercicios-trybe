@@ -1,0 +1,18 @@
+{
+  "name": "dia-1-js-assincrono-e-callbacks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "exercise1.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.1.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.1.2"
+  }
+}
