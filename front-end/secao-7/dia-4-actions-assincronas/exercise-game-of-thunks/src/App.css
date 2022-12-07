@@ -18,6 +18,11 @@ header {
   width: 50%;
   max-width: 80%;
   text-align: left;
+  padding: 20px;
+}
+
+.card h2 {
+  text-align: center;
 }
 
 form {
@@ -30,5 +35,11 @@ form {
 }
 
 .btn:hover {
+  background-color: #010101;
+}
+.btn:focus {
+  background-color: #010101;
+}
+.btn::shadow {
   background-color: #010101;
 }

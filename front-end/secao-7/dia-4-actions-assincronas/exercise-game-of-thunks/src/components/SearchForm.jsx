@@ -36,7 +36,7 @@ export class SearchForm extends Component {
         <button
           type="button"
           onClick={this.clickChangle}
-          class="btn btn-primary"
+          className="btn btn-primary"
         >
           Buscar
         </button>

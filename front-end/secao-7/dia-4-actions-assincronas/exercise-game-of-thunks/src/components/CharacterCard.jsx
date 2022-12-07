@@ -14,7 +14,7 @@ class CharacterCard extends Component {
     
       <div className="card">
         <div className="card-body">
-          <h2 className="card-title">Name: { name}</h2>
+          <h2 className="card-title">{ name}</h2>
           <p className="card-text">Gênero: { gender }</p>
           <p className="card-text">Cultura: { culture}</p>
 
