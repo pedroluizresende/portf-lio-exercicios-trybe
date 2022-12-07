@@ -12,27 +12,30 @@ class CharacterCard extends Component {
   
     return (
     
-      <div>
-    
-        <p>Name: { name}</p>
-        <p>Gênero: { gender }</p>
-        <p>Cultura: { culture}</p>
-        <ul>
-          <p>Títulos:</p>
-          {titles.map((title, index) => (
-            <li key={ `${title}${index}`}>
-              { title }
-            </li>
-          ))}
-        </ul>
-        <ul>
-          <p>Apelidos:</p>
-            {aliases.map((alias, index) => (
-              <li key={  `${alias}${index}` }>
-                { alias }
+      <div className="card">
+        <div className="card-body">
+          <h2 className="card-title">Name: { name}</h2>
+          <p className="card-text">Gênero: { gender }</p>
+          <p className="card-text">Cultura: { culture}</p>
+
+          <ul className="list-group list-group-flush">
+            <p className="card-text">Títulos:</p>
+            {titles.map((title, index) => (
+              <li className="list-group-item" key={ `${title}${index}`}>
+                { title }
               </li>
             ))}
-        </ul>
+          </ul>
+          <br />
+          <ul className="list-group list-group-flush">
+            <p className="card-text">Apelidos:</p>
+              {aliases.map((alias, index) => (
+                <li className="list-group-item" key={  `${alias}${index}` }>
+                  { alias }
+                </li>
+              ))}
+          </ul>
+        </div>
       </div>
     )
   }

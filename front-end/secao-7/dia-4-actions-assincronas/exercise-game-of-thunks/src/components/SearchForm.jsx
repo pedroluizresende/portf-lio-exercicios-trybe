@@ -30,9 +30,16 @@ export class SearchForm extends Component {
             name="searchInput"
             placeholder="nome completo do personagem"
             onChange={ this.handleChangle}
+            className="input-group-text"
           />
         </label>
-        <button type="button" onClick={this.clickChangle}>Buscar</button>
+        <button
+          type="button"
+          onClick={this.clickChangle}
+          class="btn btn-primary"
+        >
+          Buscar
+        </button>
       </form>
     )
   }
